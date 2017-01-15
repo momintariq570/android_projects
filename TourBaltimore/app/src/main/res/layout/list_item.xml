@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardBackgroundColor="#CFD8DC">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_list_item_image"
+                style="@style/LocationImage"/>
+
+            <TextView
+                android:id="@+id/card_list_item_location_name"
+                style="@style/LocationName"/>
+
+            <TextView
+                android:id="@+id/card_list_item_location_address"
+                style="@style/LocationAddress"/>
+
+            <TextView
+                android:id="@+id/card_list_item_location_phone"
+                style="@style/LocationCall"/>
+
+            <TextView
+                android:id="@+id/card_list_item_location_website"
+                style="@style/LocationWebsite"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

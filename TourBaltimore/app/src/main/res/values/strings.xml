@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">TourBaltimore</string>
+
+    <!-- Category string values -->
+    <string name="restaurant">Restaurants</string>
+    <string name="hotel">Hotels</string>
+    <string name="museum">Museums</string>
+    <string name="nature">Nature</string>
+
+    <!-- Card elements -->
+    <string name="directions">Directions</string>
+    <string name="call">Call</string>
+    <string name="website">Website</string>
+
+    <!-- Restaurant string values -->
+    <string name="restaurant_one_name">Ouzo Bay</string>
+    <string name="restaurant_one_address">1000 Lancaster St, Baltimore, MD 21202</string>
+    <string name="restaurant_one_phone_number">443-708-5818</string>
+    <string name="restaurant_one_website">http://www.ouzobay.com/baltimore/</string>
+
+    <string name="restaurant_two_name">Cinghiale Osteria</string>
+    <string name="restaurant_two_address">822 Lancaster St, Baltimore, MD 21202</string>
+    <string name="restaurant_two_phone_number">410-547-8282</string>
+    <string name="restaurant_two_website">https://cgeno.com</string>
+
+    <string name="restaurant_three_name">Woodberry Kitchen</string>
+    <string name="restaurant_three_address">2010 Clipper Park Rd, Baltimore, MD 21211</string>
+    <string name="restaurant_three_phone_number">410-464-8000</string>
+    <string name="restaurant_three_website">http://www.woodberrykitchen.com</string>
+
+    <string name="restaurant_four_name">Wit &amp; Wisdom</string>
+    <string name="restaurant_four_address">200 International Drive, Baltimore, MD 21202</string>
+    <string name="restaurant_four_phone_number">410-576-5800</string>
+    <string name="restaurant_four_website">http://www.witandwisdombaltimore.com</string>
+
+    <!-- Hotels string values -->
+    <string name="hotel_one_name">Kimpton Monaco</string>
+    <string name="hotel_one_address">2 N Charles St, Baltimore, MD 21201</string>
+    <string name="hotel_one_phone_number">443-692-6170</string>
+    <string name="hotel_one_website">http://www.monaco-baltimore.com</string>
+
+    <string name="hotel_two_name">Royal Sonesta</string>
+    <string name="hotel_two_address">550 Light St, Baltimore, MD 21202</string>
+    <string name="hotel_two_phone_number">410-234-0550</string>
+    <string name="hotel_two_website">https://www.sonesta.com</string>
+
+    <string name="hotel_three_name">Four Seasons</string>
+    <string name="hotel_three_address">200 International Drive, Baltimore, MD 21202</string>
+    <string name="hotel_three_phone_number">410-576-5800</string>
+    <string name="hotel_three_website">http://www.fourseasons.com/baltimore/</string>
+
+    <string name="hotel_four_name">The Ivy Hotel</string>
+    <string name="hotel_four_address">205 E Biddle St, Baltimore, MD 21202</string>
+    <string name="hotel_four_phone_number">410-514-6500</string>
+    <string name="hotel_four_website">http://www.theivybaltimore.com</string>
+
+    <!-- Museums string values -->
+    <string name="museum_one_name">The Walters Art Museum</string>
+    <string name="museum_one_address">600 N Charles St, Baltimore, MD 21201</string>
+    <string name="museum_one_phone_number">410-547-9000</string>
+    <string name="museum_one_website">https://thewalters.org</string>
+
+    <string name="museum_two_name">B&amp;O Railroad Museum</string>
+    <string name="museum_two_address">901 W Pratt St, Baltimore, MD 21223</string>
+    <string name="museum_two_phone_number">410-752-2490</string>
+    <string name="museum_two_website">http://www.borail.org</string>
+
+    <string name="museum_three_name">Babe Ruth Birthplace Museum</string>
+    <string name="museum_three_address">216 Emory St, Baltimore, MD 21230</string>
+    <string name="museum_three_phone_number">410-727-1539</string>
+    <string name="museum_three_website">http://baberuthmuseum.org</string>
+
+    <string name="museum_four_name">National Great Blacks In Wax Museum</string>
+    <string name="museum_four_address">1601 E North Ave, Baltimore, MD 21213</string>
+    <string name="museum_four_phone_number">410-563-3404</string>
+    <string name="museum_four_website">http://www.greatblacksinwax.org</string>
+
+    <!-- Nature string values -->
+    <string name="nature_one_name">National Acquarium</string>
+    <string name="nature_one_address">501 E Pratt St, Baltimore, MD 21202</string>
+    <string name="nature_one_phone_number">410-576-3800</string>
+    <string name="nature_one_website">https://aqua.org</string>
+
+    <string name="nature_two_name">Fort McHenry</string>
+    <string name="nature_two_address">2400 E Fort Ave, Baltimore, MD 21230</string>
+    <string name="nature_two_phone_number">410-962-4290</string>
+    <string name="nature_two_website">https://www.nps.gov/fomc/index.htm</string>
+
+    <string name="nature_three_name">The Maryland Zoo</string>
+    <string name="nature_three_address">1 Safari Place, Baltimore, MD 21217</string>
+    <string name="nature_three_phone_number">410-396-7102</string>
+    <string name="nature_three_website">http://www.marylandzoo.org</string>
+
+    <string name="nature_four_name">Sherwood Gardens</string>
+    <string name="nature_four_address">4100 Greenway, Baltimore, MD 21218</string>
+    <string name="nature_four_phone_number">410-785-0444</string>
+    <string name="nature_four_website">http://guilfordassociation.org/sherwood/</string>
+
+</resources>

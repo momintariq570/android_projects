@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="MainActivity">Login Activity.  User provides his/her credentials and presses the Login button.</string>
+    <string name="Login">Login</string>
+    <string name="FavoritesActivity">Favorites Activity.  User\'s favorite stations and playlists will be displayed.  Additionally, a EditText will appear at the top which will allow users to search for more stations and playlists.</string>
+    <string name="Play">Play</string>
+    <string name="PlayingActivity">Playing Activity.  The user\'s song or station will be playing in this activity.</string>
+</resources>
