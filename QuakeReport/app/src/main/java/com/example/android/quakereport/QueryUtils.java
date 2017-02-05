@@ -51,6 +51,7 @@ public final class QueryUtils {
         ArrayList<Earthquake> earthquakes = extractEarthquakes(jsonResponse);
 
         // Return the {@link Event}
+        Log.i("Log", "fetchEarthquakeData");
         return earthquakes;
     }
 

@@ -2,6 +2,7 @@ package com.example.android.quakereport;
 
 import android.support.v4.content.AsyncTaskLoader;
 import android.content.Context;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,11 +25,13 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<Earthquake>> {
         if(url.get(0) == null) {
             return null;
         }
+        Log.i("Log", "loadInBackground");
         return QueryUtils.fetchEarthquakeData(url.get(0));
     }
 
     @Override
     protected void onStartLoading() {
         forceLoad();
+        Log.i("Log", "onStartLoading");
     }
 }
