@@ -32,6 +32,7 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
 
     @NonNull
     @Override
+    // Sets up the individual list view item
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
         if(listItemView == null) {
@@ -47,11 +48,11 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
 
         final Article currentArticle = getItem(position);
 
-        // Set title and author to the list item
+        // Set title and section to the list item
         viewHolder.titleTextView.setText(currentArticle.getTitle());
         viewHolder.sectionTextView.setText(currentArticle.getSection());
 
-        // Click on the list item opens the book url
+        // Click on the list item opens the article url
         listItemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

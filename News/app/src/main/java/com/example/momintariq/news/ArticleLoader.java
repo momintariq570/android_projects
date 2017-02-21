@@ -20,7 +20,7 @@ public class ArticleLoader extends AsyncTaskLoader<List<Article>> {
     }
 
     @Override
-    // Get the book information from the web api
+    // Get the article information from the web api
     public List<Article> loadInBackground() {
         if(this.url.get(0) == null) {
             return null;

@@ -4,13 +4,16 @@ package com.example.momintariq.news;
  * Created by momintariq on 2/11/17.
  */
 
+// Data model class
 public class Article {
 
+    // Instance fields
     private String title;
     private String section;
     private String date;
     private String url;
 
+    // Constructor
     public Article(String title, String section, String date, String url) {
         this.title = title;
         this.section = section;
@@ -18,6 +21,7 @@ public class Article {
         this.url = url;
     }
 
+    // Getters and setters
     public String getTitle() {
         return title;
     }
