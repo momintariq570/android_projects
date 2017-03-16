@@ -1,6 +1,7 @@
 package com.example.momintariq.habittracker.data;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -37,5 +38,15 @@ public class HabitDbHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         sqLiteDatabase.execSQL(SQL_DELETE_ENTRIES);
         onCreate(sqLiteDatabase);
+    }
+
+    public Cursor readAllHabits(Context context) {
+        HabitDbHelper dbHelper = new HabitDbHelper(context);
+        // Create SQLiteDatabase
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+
+        // Create a cursor (2-dimensional representation of database)
+        Cursor cursor = db.query(HabitEntry.TABLE_NAME, null, null, null, null, null, null);
+        return cursor;
     }
 }

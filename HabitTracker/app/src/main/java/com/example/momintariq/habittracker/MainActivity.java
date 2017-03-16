@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 insertData();
-                displayDatabaseInfo();
+                displayDatabaseInfo(dbHelper.readAllHabits(getApplicationContext()));
             }
         });
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        displayDatabaseInfo();
+        displayDatabaseInfo(dbHelper.readAllHabits(getApplicationContext()));
     }
 
     // Insert dummy data
@@ -55,12 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Display database contents
-    private void displayDatabaseInfo() {
-        // Create SQLiteDatabase
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-
-        // Create a cursor (2-dimensional representation of database)
-        Cursor cursor = db.query(HabitEntry.TABLE_NAME, null, null, null, null, null, null);
+    private void displayDatabaseInfo(Cursor cursor) {
 
         try {
             // Build the text view with database info
