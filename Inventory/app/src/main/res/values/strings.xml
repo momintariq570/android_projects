@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+    <string name="action_insert_dummy_product">Insert Dummy Product</string>
+    <string name="action_delete_all_products">Delete All Products</string>
+
+    <string name="sell_product">Sell</string>
+    <string name="restock_product">Restock</string>
+    <string name="product_name_key">Name</string>
+    <string name="product_price_key">Price</string>
+    <string name="product_quantity_key">Quantity</string>
+
+    <string name="delete_all_products_success">Deleted all products</string>
+    <string name="delete_all_products_failure">Error deleting all products</string>
+
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+    <string name="editor_activity_title_add_product">Add Product</string>
+
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_product_price">Product Price</string>
+    <string name="hint_product_supplier">Product Supplier Email Address</string>
+
+    <string name="action_save">Save Product</string>
+    <string name="action_delete">Delete Product</string>
+    <string name="order_product">Order</string>
+    <string name="editor_insert_product_failed">Error with saving product</string>
+    <string name="editor_insert_product_success">Product saved</string>
+    <string name="editor_update_product_failed">Error with updating product</string>
+    <string name="editor_update_product_success">Product updated</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="editor_delete_product_success">Product deleted</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+</resources>
